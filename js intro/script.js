@@ -45,10 +45,27 @@
 
 // console.log(typeof x);
 
-var a = 10;
-var b = a;
-console.log(a, b);
+// var a = 10;
+// var b = a;
+// console.log(a, b);
 
-a = 30;
+// a = 30;
 
-console.log(a, b);
+// console.log(a, b);
+
+// var marks = [12, 34, 45];
+
+// var yourMarks = marks;
+
+// console.log(marks, yourMarks);
+
+// yourMarks[2] = 1000;
+
+// console.log(marks, yourMarks);
+
+// console.log(typeof "strng....");
+// console.log(typeof 123);
+// console.log(typeof 1.23);
+
+// var x = null;
+// console.log(typeof x);
