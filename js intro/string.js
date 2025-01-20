@@ -7,8 +7,9 @@
 
 // console.log(z);
 
-// var str = new String("hello world");
+var str = new String("hello world");
 // console.log(typeof str);
+// console.log(typeof str.toString());
 
 // var fName = prompt("Enter your first name : ");
 // var lName = prompt("Enter your last name : ");
@@ -85,10 +86,14 @@ var txt = "hello world my name is john and i am web developer";
 // mcdonalds => McDonalds
 // ZARa => ZaRa
 
-var brand = prompt("Brand name : ").toLowerCase();
-console.log(
-  brand[0].toUpperCase() +
-    brand[1].toLowerCase() +
-    brand[2].toUpperCase() +
-    brand.slice(3).toLowerCase()
-);
+// var brand = prompt("Brand name : ").toLowerCase();
+// console.log(
+//   brand[0].toUpperCase() +
+//     brand[1].toLowerCase() +
+//     brand[2].toUpperCase() +
+//     brand.slice(3).toLowerCase()
+// );
+
+// console.log(txt.match(/l/g));
+var matches = txt.matchAll(/l/g);
+console.log(Array.from(matches));
