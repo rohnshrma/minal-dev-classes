@@ -150,10 +150,10 @@ var car = {
 // var marks = [12, 2, 3, 45, 67];
 // console.log([...marks, 34, 4, 7]);
 
-function updateData(name, age, gender) {
-  return { name, age, gender, id: Math.floor(Math.random() * 10) };
-}
+// function updateData(name, age, gender) {
+//   return { name, age, gender, id: Math.floor(Math.random() * 10) };
+// }
 
-var { id, name } = updateData("john", 23, "Male");
+// var { id, name } = updateData("john", 23, "Male");
 
-console.log(id, name);
+// console.log(id, name);
