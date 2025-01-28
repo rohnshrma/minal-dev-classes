@@ -1,7 +1,7 @@
 var int2DArr = [
   [1, 2, 3, 4],
   [1, 2, 3, 4, 5],
-  [1, 2, 3, 4]
+  [1, 2, 3, 4],
 ];
 
 console.log(int2DArr.length);
@@ -15,5 +15,4 @@ for (var i = 0; i < int2DArr.length; i++) {
   }
 }
 
-
- console.log("SUM::" + ans);
+console.log("SUM::" + ans);
