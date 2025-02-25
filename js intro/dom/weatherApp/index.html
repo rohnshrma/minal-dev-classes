@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>GET WEATHER</h2>
+        <form id="weatherForm">
+            <label for="city">Name:</label>
+            <input type="text" id="city" name="city" required>
+            <br>
+                <div class="error" id="cityError"></div>
+            <br>
+                <div id="tableContainer"></div> <!-- Placeholder for the table -->
+            <br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
