@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
-root.render(
-  <div id="App">
-    <h1>hello react</h1>
-    <p>this a paragraph</p>{" "}
-  </div>
-);
+root.render(<App />);
