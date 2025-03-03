@@ -17,7 +17,6 @@ document
     event.preventDefault(); // do not actually submit the page to the server
    
     var input = getInput()
-    console.log(input);
 
     getWeather(input)
       .then((data) => { 
