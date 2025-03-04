@@ -11,15 +11,7 @@ function App() {
     <div id="App">
       <Heading />
       <p>this a paragraph</p>
-      <Cards>
-        {data.map((item) => (
-          <Card
-            key={item.id}
-            superHeroName={item.superHeroName}
-            realName={item.realName}
-          />
-        ))}
-      </Cards>
+      <Cards data={data} />
     </div>
   );
 }
